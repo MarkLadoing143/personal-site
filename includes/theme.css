@@ -1,0 +1,263 @@
+@import url('https://fonts.googleapis.com/css?family=VT323'); /* font-family: 'VT323', monospace; */
+@font-face {
+	font-family:"Pokemon GB";
+	src:url("Pokemon_GB/Pokemon_GB.eot?") format("eot"),
+		url("Pokemon_GB/Pokemon_GB.woff") format("woff"),
+		url("Pokemon_GB/Pokemon_GB.ttf") format("truetype"),
+		url("Pokemon_GB/Pokemon_GB.svg#PokemonGB") format("svg");
+	font-weight:normal;
+	font-style:normal;
+}
+@font-face {
+	font-family:"Perfect DOS VGA 437";
+	src:url("Perfect_DOS/Perfect DOS VGA 437.ttf") format("truetype");
+	font-weight:normal;
+	font-style:normal;
+}
+@font-face {
+	font-family:"Emulogic";
+	src:url("Emulogic/emulogic.ttf") format("truetype");
+	font-weight:normal;
+	font-style:normal;	
+}
+@media only screen and (min-width : 800px) {
+	.navbar-brand {
+		font-size: 20pt !important;
+		padding-bottom: 0px !important;
+		padding-top: 0px !important;
+	}
+	.sidebar-title {
+		font-size: 20pt;
+	}
+	.title {
+		font-size: 20pt;
+	}
+	.thumbnail {
+		width: 150px;
+		height: 300px;
+	}
+	.white-text {
+		font-size: 8pt;
+	}
+	.table-subtitle2 {
+		font-size: 11pt !important;
+	}
+}
+@media only screen and (max-width : 768px) {
+	.sidebar-title {
+		font-size: 15pt;
+	}
+	.navbar-brand {
+		font-size: 15pt !important;
+	}
+	.sidebar {
+		padding-bottom: 1em;
+	}
+	#myBtn {	
+		font-size: 15pt !important;
+	}
+	.title {
+		font-family: "Pokemon GB";
+		font-size: 15pt;
+	}
+	.white-text {
+		font-size: 16pt;
+	}
+	.table-title {
+		font-size: 6pt !important;
+	}
+	.table td {
+		font-size: 7pt;
+	}
+	.table-subtitle {
+		font-size: 5pt !important;
+	}
+	.table-subtitle2 {
+		font-size: 8pt !important;
+	}
+}
+@media only screen and (max-width : 320px) {
+	.table td {
+		font-size: 5pt;
+	}
+	.table-subtitle2 {
+		font-size: 7pt !important;
+	}
+}
+@media {
+    .container {
+        max-width: 100%;
+    }
+}
+* {
+	border-radius: 0 !important;
+}
+body { 
+	background-color: #f0f0f0 !important;
+	color: #222224 !important;
+	padding-top: 70px; 
+}
+.navbar-brand {
+	font-family: "Perfect DOS VGA 437";
+}
+.start-screen img {
+	width: 100%;
+	height: auto;
+	padding-bottom: 1em;
+}
+.title {
+	font-family: "Pokemon GB";
+}
+.sidebar {
+	font-family: "VT323";
+	/* box-shadow: 2px 2px 2px rgba(0,0,0,.16); */
+}
+.sidebar-title {
+	padding: 5px !important;
+	padding-left: 15px !important;
+	background-color: #222224 !important;
+	color: #f0f0f0 !important;
+}
+.list-group-item {
+	border: 0px !important;
+	background-color: #222224 !important;
+	color: #f0f0f0 !important;
+}
+a.list-group-item:hover {
+	background-color: #f0f0f0 !important;
+	color: #222224 !important;
+}
+.list-group-item.active{
+	background-color:  #b2b4b2 !important;
+	color: #222224 !important;
+}
+.portfolio-item {
+	padding-bottom: 1em;
+	min-height: 250px;
+	min-width: 250px;
+}
+.card {
+	border: none !important;
+}
+.card-img {
+	position: relative;
+	width: 200px;
+	height: 200px;
+	overflow: hidden;
+}
+.card-img-top {
+	min-height: 200px;
+	min-width: 200px;
+	/* object-position: 50% 50% !important; */
+}
+.card img {
+	height: auto;
+	object-fit: cover !important;
+}
+.card-title {
+	font-family: "Emulogic";
+	font-size: 10pt;
+}
+.card-title a {
+	color: #514689 !important;
+}
+.card-title a:hover {
+	color: #a7a4e0 !important;
+}
+.card-subtitle {
+	font-family: "Emulogic";
+	font-size: 7pt;
+	padding-bottom: .75rem !important;
+	padding-top: .3rem !important;
+}
+.card-body {
+	 background-color: #d8d9d8;
+}
+.card .card-body p {
+	margin-bottom: 0 !important;
+}
+.panel-title {
+	font-family: "Emulogic";
+	font-size: 10pt !important;
+}
+.panel-title .fa {
+	font-size: 16pt !important;
+}
+.card-text {
+	color: #54585a !important;
+}
+.panel {
+	background-color: #d8d9d8 !important;
+	margin-bottom: 1em !important;
+}
+.panel-text {
+	/* font-size: 12pt !important; */
+	color: #54585a !important;
+}
+.profile {
+	position:relative;
+	padding-bottom: 1em;
+}
+.profile img {
+	display: block;
+	margin: 0 auto;
+}
+.img-profile {
+	height: 200px !important;
+	width: 200px !important;
+	box-shadow: 3px 3px 3px rgba(0,0,0,.16);
+}
+.thumbnail {
+	position: relative;
+	overflow: hidden;
+}
+.img-thumbnail {
+	min-height: 200px;
+	min-width: 150px;
+	object-fit: cover !important;
+	border: 0 !important;
+	background-color: #d8d9d8 !important;
+}
+.white-text {
+	text-align: center;
+	font-family: "Emulogic";
+}
+.table {
+	margin-bottom: 0 !important;
+	color: #54585a;
+}
+td {
+	font-weight: 400 !important;
+}
+.table-title {
+	font-family: "Emulogic";
+	font-size: 8pt;
+}
+.table-subtitle {
+	font-family: "Emulogic" !important;
+	font-size: 7pt;
+	text-align: right;
+}
+.table-subtitle2 {
+	font-weight: bold !important;
+}
+.footer {
+	font-family: "Perfect DOS VGA 437";
+	padding-top: 1em;
+	padding-bottom: 1em;
+}
+#myBtn {
+	font-family: "Perfect DOS VGA 437";
+	font-size: 20pt;
+    display: none; /* Hidden by default */
+    position: fixed;
+    bottom: 20px; /* Place the button at the bottom of the page */
+    right: 30px; /* Place the button 30px from the right */
+    z-index: 99; /* Make sure it does not overlap */
+    border: none; 
+    outline: none; 
+    color: #f0f0f0;
+    cursor: pointer; /* Add a mouse pointer on hover */
+    padding: 10px; /* Some padding */
+	box-shadow: 2px 2px 2px black;
+}
