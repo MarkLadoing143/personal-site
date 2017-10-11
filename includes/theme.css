@@ -92,6 +92,9 @@
 * {
 	border-radius: 0 !important;
 }
+a {
+	transition: .3s; 
+}
 body { 
 	background-color: #f0f0f0 !important;
 	color: #222224 !important;
@@ -225,6 +228,15 @@ a.list-group-item:hover {
 .table {
 	margin-bottom: 0 !important;
 	color: #54585a;
+}
+table.table a {
+	color: #54585a !important;
+	text-decoration: underline !important;
+	font-weight: 400 !important;
+}
+table.table a:hover {
+	color: #514689 !important;
+	font-weight: 400 !important;
 }
 td {
 	font-weight: 400 !important;
