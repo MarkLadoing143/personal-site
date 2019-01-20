@@ -231,12 +231,13 @@ a.list-group-item:hover {
 }
 table.table a {
 	color: #54585a !important;
-	text-decoration: underline !important;
+	text-decoration: none !important;
 	font-weight: 400 !important;
 }
 table.table a:hover {
 	color: #514689 !important;
 	font-weight: 400 !important;
+	text-decoration: underline !important;
 }
 td {
 	font-weight: 400 !important;
