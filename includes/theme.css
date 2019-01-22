@@ -20,6 +20,14 @@
 	font-weight:normal;
 	font-style:normal;	
 }
+html,body {
+	height:100%;
+}
+.container-fluid {
+	min-height: calc(100% - 57px);
+	display: grid;
+    grid-template-rows: auto 1fr auto;
+}
 @media only screen and (min-width : 800px) {
 	.navbar-brand {
 		font-size: 20pt !important;
