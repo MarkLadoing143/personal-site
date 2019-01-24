@@ -51,7 +51,7 @@ html,body {
 		font-size: 11pt !important;
 	}
 	.table-img {
-		min-width: 300px;
+		min-width: 200px;
 	}
 }
 @media only screen and (max-width : 768px) {
@@ -87,7 +87,7 @@ html,body {
 		font-size: 8pt !important;
 	}
 	.table-img {
-		min-width: 200px;
+		min-width: 100px;
 	}
 }
 @media only screen and (max-width : 320px) {
@@ -278,7 +278,6 @@ td {
 }
 table.table a.read-more {
 	font-family: "Emulogic";
-	font-size: 10pt !important;
 	color: #514689 !important;
 }
 table.table a.read-more:hover {
